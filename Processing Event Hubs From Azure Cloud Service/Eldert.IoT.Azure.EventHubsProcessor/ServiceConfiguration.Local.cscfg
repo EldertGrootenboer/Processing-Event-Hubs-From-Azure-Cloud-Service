@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Eldert.IoT.Azure.EventHubsProcessor" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="Eldert.IoT.Azure.EventHubsProcessor.WorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=eventhubsprocessor;AccountKey=xxxxxxxxxxxxxxxxxxxxxxxx" />
+      <Setting name="ConsumerGroup" value="administrationconsole" />
+      <Setting name="EventHub" value="eventhubfieldhubs" />
+      <Setting name="IoTStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=eldertiot;AccountKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+      <Setting name="EventHubsConnectionString" value="Endpoint=sb://eldertiot.servicebus.windows.net/;SharedAccessKeyName=administrationconsole;SharedAccessKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

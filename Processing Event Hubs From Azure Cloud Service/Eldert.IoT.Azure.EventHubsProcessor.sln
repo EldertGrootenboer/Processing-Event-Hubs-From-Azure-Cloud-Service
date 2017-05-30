@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Eldert.IoT.Azure.EventHubsProcessor", "Eldert.IoT.Azure.EventHubsProcessor\Eldert.IoT.Azure.EventHubsProcessor.ccproj", "{9D5EFEB5-6D87-4AEF-9221-10B2DF52DD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.IoT.Azure.EventHubsProcessor.WorkerRole", "Eldert.IoT.Azure.EventHubsProcessor.WorkerRole\Eldert.IoT.Azure.EventHubsProcessor.WorkerRole.csproj", "{DFC90C75-6783-41F3-9F29-E270D85EAF41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.IoT.Data.DataTypes", "Eldert.IoT.Data.DataTypes\Eldert.IoT.Data.DataTypes.csproj", "{345FBFA4-5DC4-4F34-BABC-10296AFB5635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D5EFEB5-6D87-4AEF-9221-10B2DF52DD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5EFEB5-6D87-4AEF-9221-10B2DF52DD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5EFEB5-6D87-4AEF-9221-10B2DF52DD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5EFEB5-6D87-4AEF-9221-10B2DF52DD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC90C75-6783-41F3-9F29-E270D85EAF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC90C75-6783-41F3-9F29-E270D85EAF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC90C75-6783-41F3-9F29-E270D85EAF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC90C75-6783-41F3-9F29-E270D85EAF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345FBFA4-5DC4-4F34-BABC-10296AFB5635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345FBFA4-5DC4-4F34-BABC-10296AFB5635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345FBFA4-5DC4-4F34-BABC-10296AFB5635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345FBFA4-5DC4-4F34-BABC-10296AFB5635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
